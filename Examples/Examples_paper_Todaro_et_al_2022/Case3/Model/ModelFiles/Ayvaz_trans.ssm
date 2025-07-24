@@ -1,0 +1,32 @@
+ F F F F F F F F F F F F F F F F
+        15
+         2         0 # stress period 1
+         1         4         4   2166.04        15
+         1         4         7   3051.88        15
+         2         0 # stress period 2
+         1         4         4   4870.92        15
+         1         4         7   7615.25        15
+         2         0 # stress period 3
+         1         4         4   3257.71        15
+         1         4         7   6098.52        15
+         2         0 # stress period 4
+         1         4         4   3276.75        15
+         1         4         7   3684.41        15
+         2         0 # stress period 5
+         1         4         4         0        15
+         1         4         7         0        15
+         2         0 # stress period 6
+         1         4         4         0        15
+         1         4         7         0        15
+         2         0 # stress period 7
+         1         4         4         0        15
+         1         4         7         0        15
+         2         0 # stress period 8
+         1         4         4         0        15
+         1         4         7         0        15
+         2         0 # stress period 9
+         1         4         4         0        15
+         1         4         7         0        15
+         2         0 # stress period 10
+         1         4         4         0        15
+         1         4         7         0        15
