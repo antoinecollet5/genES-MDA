@@ -1,3 +1,0 @@
-nan nan nan nan 8.000e-04
-nan nan nan nan 2.000e-06
-
