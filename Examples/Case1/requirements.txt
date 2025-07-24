@@ -1,0 +1,4 @@
+numpy==1.26.4
+scipy==1.16.0
+pydsstools==2.3.2
+pywin32==305.1
