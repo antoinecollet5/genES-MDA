@@ -1,0 +1,16 @@
+This document provides possible solutions and suggestions for addressing common issues encountered while using genES-MDA.
+If you experience a problem not listed here or have suggestions to improve this guide, comments and feedback are welcome!
+
+Troubleshooting Tips:
+
+- Ensure that all input files are correctly formatted and consistent with model requirements. Templates are provided in the main genESMDA folder.
+
+- Input values should be within expected physical ranges and use consistent units throughout.
+
+- Start with a reduced ensemble size or simplified model setup to identify issues before scaling up.
+
+- Confirm that forward model settings, such as boundary conditions or simulation time steps, are correctly configured and consistent with the data.
+
+- Verify that the initial ensemble of parameters cover plausible parameter space.
+
+- Check metrics stored in metrics_dict at the different iterations to ensure the algorithm converged properly.
