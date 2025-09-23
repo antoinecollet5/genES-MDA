@@ -106,10 +106,10 @@ def localization(ens_par,par,obs,loc_space,loc_time,iter_loc):
 def Metrics_obs(Xprev,pred,True_par,obs):
     from Tools import Metrics as m
     par=Xprev
-     #Root Mean Squared Error between predictions and observations
-    RMSE_obs=m.RMSE(obs, np.atleast_2d(pred.mean(1)).T)
+    #Root Mean Squared Error between predictions and observations
+    RMSE_obs=[m.RMSE(obs, np.atleast_2d(pred.mean(1)).T)]
     #Average Ensemble Spread
-    AES=m.AES(par)
+    AES=[m.AES(par)]
 
     metrics_dict ={}
     for variable in ['RMSE_obs','AES']:
@@ -148,3 +148,4 @@ def Metrics_obs_par(Xprev,pred,True_par,obs):
     for variable in ['RMSE_obs', 'RMSE_par', 'AES', 'NSE_par', 'rank_Qxy','rank_Qyy','rank_Qxx']:
         metrics_dict[variable]=eval(variable)
     return metrics_dict
+
